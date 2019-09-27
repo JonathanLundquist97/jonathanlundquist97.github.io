@@ -4,6 +4,8 @@
   background-color:#d8d7d7;
   width: 100%;
   text-align:center;
+  font-size:1.2em;
+  font-family: 'Big Shoulders Display', cursive;
 }
 
 .website-link{
@@ -19,6 +21,7 @@ img {
 
 p {
   font-family: 'Raleway', sans-serif;
+  text-align:justify;
 }
 
 body {
@@ -52,9 +55,8 @@ main {
 
 main section {
 	margin: 0.5rem;
-	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: #eee;
+	background-color: white;
 }
 section:nth-child(2) {
 	display: none;
