@@ -1,0 +1,74 @@
+img{
+  padding:5px;
+}
+
+header {
+  font-family: 'DM Serif Text', serif;
+}
+
+li,h2 {
+  font-family: 'Rasa', serif;
+}
+
+p {
+  font-family: 'Tinos', serif;
+
+}
+
+footer{
+  background-color:#00a7e1;
+  width: 100%;
+  text-align:center;
+  color: #fbfcfb;
+  text-decoration: none;
+  box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+}
+
+body{
+  background-color: #fbfcfb;
+}
+
+img{
+  width=30px;
+  height=300px;
+}
+
+header {
+text-align:center;
+Background:#00a7e1;
+font-size:2em;
+padding:15px;
+color: #fbfcfb;
+box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+border-radius: 18px 18px 0px 0px;
+}
+
+nav{
+background: #180f06;
+padding: 1px;
+box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+}
+nav a:hover{
+color: grey;
+}
+
+nav ul{
+}
+
+nav li{
+}
+
+li {
+display: inline;
+padding: 0px 9em;
+}
+
+a{
+ color:inherit;
+text-decoration: none;
+}
