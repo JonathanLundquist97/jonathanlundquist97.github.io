@@ -1,11 +1,11 @@
-var imagesToLoad = document.querySelectorAll('img[data-src]');
+var imagesToLoad = document.querySelectorAll("img[data-src]");
 var loadImages = function(image) {
-	image.setAttribute('src', image.getAttribute('data-src'));
+	image.setAttribute("src", image.getAttribute("data-src"));
 	image.onload = function() {
-		image.removeAttribute('data-src');
+		image.removeAttribute("data-src");
 	};
 };
-if('IntersectionObserver' in window) {
+if("IntersectionObserver" in window) {
 	var observer = new IntersectionObserver(function(items, observer) {
 		items.forEach(function(item) {
 			if(item.isIntersecting) {
