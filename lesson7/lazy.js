@@ -1,4 +1,11 @@
+//Lazyloading script
 var imagesToLoad = document.querySelectorAll("img[data-src]");
+
+var imgOptions = {
+    threshold: 0,
+    rootmargin: "0px 0px 50px 0px"
+};
+
 var loadImages = function(image) {
 	image.setAttribute("src", image.getAttribute("data-src"));
 	image.onload = function() {
