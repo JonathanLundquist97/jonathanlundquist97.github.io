@@ -23,9 +23,12 @@ font-weight:normal;
 thead {
 font-size: 2em;
 background-color: #7fb9c2;
+letter-spacing: -1px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
-thead th {
+thead th, tr {
 font-weight:bolder;
 }
 
