@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Storm Center</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stormstyle.css">
+    <script src="lazy.js" defer></script>
+    <script src="stormscript.js" defer></script>
+    <link rel="shortcut icon" type="image/png" href="faviconweather.png">
+  </head>  
+  <body>
+    <header>
+      <img src="https://user-images.githubusercontent.com/55597694/66233013-88c43e00-e6a7-11e9-991c-de9332bcea7f.png">
+      <section class="heading">
+        <h1>Idaho Weather</h1>
+        <div class="motto">Weather of the Gem State!</div>
+      </section>
+    </header>
+    <nav>
+      <div class="navBar">
+        <button class="menu">Menu</button>
+        <div class="navContent">
+          <a href="#">Home</a>
+          <a href="#">Preston</a>
+          <a href="#">Soda Springs</a>
+          <a href="#">Fish Haven</a>
+          <a href="#">Storm Center</a>
+          <a href="#">Gallery</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+    <div id="stormchaser">
+      <form id="reportastorm">
+      <table>
+      <tr>
+      <td>
+      <label for="fullname">Please enter your full name:</label>
+      </td>
+      <td>
+      <input type="text" id="fullname" name="fullname" pattern="[A-Za-z]{5,}" required>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="phone">Please enter your phone number:</label>
+      </td>
+      <td>
+      <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="zip">Please enter your zip code:</label>
+      </td>
+      <td>
+      <input type="number" id="zip" name="zip" pattern="[0-9]{5}" required>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="date">Please enter the date of the storm:</label>
+      </td>
+      <td>
+      <input type="date" id="date" name="date" min="0000-01-01" max="9999-12-31" required>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="storms"> Please select the storm type:</label>
+      </td>
+      <td>
+      <input list="storms" name="storms" required>
+        <datalist id="storms">
+        <option value="Flash Flood"></option>
+        <option value="Hail"></option>
+        <option value="Hurricane"></option>
+        <option value="Thunderstorm"></option>
+        <option value="Tornado"></option>
+      </datalist>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="severity">How severe is the storm? (1-10) </label>
+      </td>
+      <td>
+      <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)" required>
+			<span id="stormseverity">5</span>
+			<datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+        <option value="6"></option>
+        <option value="7"></option>
+        <option value="8"></option>
+        <option value="9"></option>
+        <option value="10"></option>
+      </datalist>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="region">Select region of the storm:</label>
+      </td>
+      <td>
+      <select id="region" name="region" required>
+        <option selected disabled>Select Region...</option>
+        <option value="preston">Preston</option>
+        <option value="sodasprings">Soda Springs</option>
+        <option value="fishhaven">Fish Haven</option>
+      </select>
+      </td>
+      </tr>
+      <tr>
+      <td>
+        <p>Are you in danger?</p>
+      </td>
+      <td>
+      <div>
+        <input type="radio" id="yes" name="yes" value="huey">
+        <label for="Yes">Yes</label>
+      </div>
+      <div>
+        <input type="radio" id="maybe" name="maybe" value="dewey">
+        <label for="maybe">Maybe</label>
+      </div>
+      <div>
+        <input type="radio" id="no" name="no" value="louie">
+        <label for="no">No</label>
+      </div>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="comment">Please enter any additonal information: </label>
+      </td>
+      <td>
+      <textarea id="comment" name="comment" rows="5" cols="20">
+      </textarea>
+      </td>
+      </tr>
+      <tr>
+      <td>
+        <input type="submit" onclick="thanks.html">
+      </td>
+      </tr>
+      </table>
+      </form>
+    </div>
+    </main>
+    <footer>
+      <p id="currentDate"></p>
+      <p>&nbsp Jonathan Lundquist &nbsp</p>
+      <p>BYU-Idaho CIT 230  &nbsp</p>
+      <p> <a href= "https://www.byui.edu/online"> BYUI Online Learning &nbsp</a></p> <p><a href="https://jonathanlundquist97.github.io/AssingmentPortal.html"> Back to Assingment Portal</a></p>
+      <p>&nbsp ©2019 &nbsp</p>
+    </footer>
+  </body>
+</html>
