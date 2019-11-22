@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Preston Weather</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="prestonstyle.css">
+    <link rel="shortcut icon" type="image/png" href="faviconweather.png">
+    <script type="text/javascript" src="./currentweather.js"></script>
+    <script type="text/javascript" src="./weatherapi.js"></script>
+    <script type="text/javascript" src="getdate.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="weathericon.png" alt="logo">
+        <section class="heading">
+            <h1>Idaho Weather</h1>
+            <div class="motto">Weather of the Gem State!</div>
+        </section>
+    </header>
+    <nav>
+        <div class="navBar">
+            <button class="menu">Menu</button>
+            <div class="navContent">
+                <a href="#">Home</a>
+                <a href="#">Preston</a>
+                <a href="#">Soda Springs</a>
+                <a href="#">Fish Haven</a>
+                <a href="#">Storm Center</a>
+                <a href="#">Gallery</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <p id="advertisementSpot"></p>
+        <h2>Preston Idaho</h2>
+        <div class="heroimage">
+            <div id="currentforecast">
+                <h2>Weather Summary</h2>
+                <ul>
+                    <li>Currently: <span id="current-temp"></span> °F</li>
+                    <li>High: <span id="high"></span> °F</li>
+                    <li>Wind Chill: <span id="windchill"></span> °F</li>
+                    <li>Humidity: <span id="humidity"></span> %</li>
+                    <li>Wind Speed: <span id="windspeed"></span> MPH</li>
+                </ul>
+            </div>
+        </div><br>
+        <div class="fiveDayForecast">
+            <h1>5 Day Forecast</h1>
+            <table>
+                <tr>
+                    <td class="weatherDays">Monday</td>
+                    <td class="weatherDays">Tuesday</td>
+                    <td class="weatherDays">Wednesday</td>
+                    <td class="weatherDays">Thursday</td>
+                    <td class="weatherDays">Friday</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2><span id="monday"></span> °F</h2> <br> <span id="mondayimage"></span><img src="" alt=""
+                            id="mondayicon">
+                    </td>
+                    <td>
+                        <h2><span id="tuesday"></span> °F</h2> <br> <span id="tuesimage"></span><img src="" alt=""
+                            id="tuesicon">
+                    </td>
+                    <td>
+                        <h2><span id="wednesday"></span> °F</h2> <br> <span id="wedimage"></span><img src="" alt=""
+                            id="wedicon">
+                    </td>
+                    <td>
+                        <h2><span id="thursday"></span> °F</h2> <br> <span id="thurimage"></span><img src="" alt=""
+                            id="thuricon">
+                    </td>
+                    <td>
+                        <h2><span id="friday"></span> °F</h2> <br> <span id="friimage"></span><img src="" alt=""
+                            id="friicon">
+                    </td>
+                </tr>
+            </table>
+        </div><br>
+        <div class="contactInfo">
+            <p>
+                Address: 0000 Idaho Way, Rexburg, ID, 83440
+            </p>
+            <p>
+                Phone: (666)666-6666
+            </p>
+            <p>
+                Fax:(999)999-9999
+            </p>
+            <a href="https://www.google.com/maps/@42.1738608,-112.0255435,11z"><img src="prestonmap.png"
+                    alt="Idaho Map"></a>
+        </div><br>
+    </main>
+    <footer>
+            <p id="currentDate"></p>
+            <p>&nbsp Jonathan Lundquist &nbsp</p>
+            <p>BYU-Idaho CIT 230  &nbsp</p>
+            <p> <a href= "https://www.byui.edu/online"> BYUI Online Learning &nbsp</a></p> <p><a href="https://jonathanlundquist97.github.io/"> Back to Assingment Portal</a></p>
+            <p>&nbsp ©2019 &nbsp</p>
+          </footer>
+</body>
+
+</html>
