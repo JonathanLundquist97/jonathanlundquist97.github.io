@@ -1,0 +1,130 @@
+@media only screen and (max-width:37.49em) {
+    h1, h2 {
+        text-align:center;
+        color:#4D4D96;
+    }
+    p {
+        text-align:center;
+    }
+    body {
+        width:80%;
+        margin-left:7%;
+        margin-right:auto;
+    }
+    
+    .cards {
+        display: inline-grid;
+        grid-template-columns: auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        padding:20px;
+        background-color:#DDDDDD;
+        box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.75);
+    }
+    
+    .cards img {
+        width:250px;
+        height:300px;
+    }
+    
+    section {
+        background-color:#B9B9CC;
+        padding-left:35px;
+        padding-right:35px;
+        padding-bottom:10px;
+        border: 1px solid #8585B2;
+        margin:0px auto;
+    }
+    
+    footer {
+        text-align:center;
+        padding:15px;
+    }
+    }
+@media only screen and (min-width: 37.5em) {
+    h1, h2 {
+        text-align:center;
+        color:#4D4D96;
+    }
+    p {
+        text-align:center;
+    }
+    body {
+        width:80%;
+        margin-left:7%;
+        margin-right:auto;
+    }
+    
+    .cards {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        padding:20px;
+        background-color:#DDDDDD;
+        box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.75);
+    }
+    
+    .cards img {
+        width:250px;
+        height:300px;
+    }
+    
+    section {
+        background-color:#B9B9CC;
+        padding-left:35px;
+        padding-right:35px;
+        padding-bottom:10px;
+        border: 1px solid #8585B2;
+        margin:0px auto;
+    }
+    
+    footer {
+        text-align:center;
+        padding:15px;
+    }
+    }
+
+@media only screen and (min-width: 60em) {
+h1, h2 {
+    text-align:center;
+    color:#4D4D96;
+}
+p {
+    text-align:center;
+}
+body {
+    width:80%;
+    margin-left:7%;
+    margin-right:auto;
+}
+
+.cards {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding:20px;
+    background-color:#DDDDDD;
+    box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.75);
+}
+
+.cards img {
+    width:250px;
+    height:300px;
+}
+
+section {
+    background-color:#B9B9CC;
+    padding-left:35px;
+    padding-right:35px;
+    padding-bottom:10px;
+    border: 1px solid #8585B2;
+    margin:0px auto;
+}
+
+footer {
+    text-align:center;
+    padding:15px;
+}
+}
