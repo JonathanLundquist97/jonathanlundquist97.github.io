@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Mansalva|Rasa&display=swap');
+
+#article h3{
+    font-size:2em;
+    font-family: 'DM Serif Text', serif;
+}
+body, html {
+  height: 100%;
+  width:auto;
+  }
+
+
+@media only screen and (max-width:37.49em) {
+  /*small screens*/
+ 
+  header {
+  background-color:#00a7e1;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  border-radius: 18px 18px 0px 0px;
+}
+
+#welcometag {
+  font-family: 'DM Serif Text', serif;
+}
+.heading h1 {
+  font-family: 'DM Serif Text', serif;
+  color:white;
+  padding: 0px;
+}
+
+.motto {
+  font-family: 'Mansalva', cursive;
+  color: #F7A072;
+}
+
+h2 {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.content {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  font-family: 'DM Serif Text', serif;
+}
+
+.heading {
+  display:flex;
+  flex-direction:column;
+  font-size:15px;
+}
+
+header img{
+  width:8em;
+  padding:10px;
+}
+
+
+li {
+  display: inline;
+}
+
+nav{
+background: #180f06;
+padding: 25px;
+box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75);
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.content {
+  background-color:grey;
+  border-style:dashed;
+  padding:1em;
+  font-family: 'DM Serif Text', serif;
+}
+
+.navContent a{
+  color:white;
+  text-decoration:none;
+  padding:1em;
+}
+
+  .navContent {
+    display:none;
+    left:0;
+  }
+    .navBar button {
+    background: #180f06;
+    border:none;
+    color:white;
+    text-align:center;
+  }
+  
+  .navBar:hover .navContent {
+    position: relative;
+    display:block;
+  }
+  
+  .navBar:hover {
+    color:black;
+  }
+  
+  .navContent a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+  .navContent a:hover {
+  color: grey;
+}
+  
+footer {
+  color:white;
+  background-color:#00a7e1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+}
+footer a {
+  text-decoration:none;
+  color:white;
+}
+
+.contactInfo {
+  background-color:#54bee3;
+  width:80%;
+  height:45%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:25px;
+  padding:5px;
+  color:white;
+  }
+.contactInfo p {
+  text-align:center;
+  font-family: 'DM Serif Text', serif;
+}
+  
+.contactInfo img {
+  display: none;
+}
+
+.cards {
+  display: inline-grid;
+  grid-template-columns: auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding:20px;
+  background-color:#DDDDDD;
+  box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.75);
+  padding-left:50px;
+  margin-left:5%;
+  margin-top:5%;
+  margin-bottom:5%;
+  width:75%;
+}
+
+.cards img {
+  width:250px;
+  height:300px;
+}
+
+section {
+  background-color:#00A7E1;
+  border: 1px solid #8585B2;
+  padding:10px;
+  text-align:center;
+  color:white;
+  font-family: 'DM Serif Text', serif;
+}
+}
+@media only screen and (min-width: 37.5em) {
+  /*Medium size*/
+  header {
+  background-color:#00a7e1;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  border-radius: 18px 18px 0px 0px;
+}
+
+.heading h1 {
+  font-family: 'DM Serif Text', serif;
+  color:white;
+  padding: 0px;
+}
+
+#welcometag {
+  font-family: 'DM Serif Text', serif;
+}
+
+.motto {
+  font-family: 'Mansalva', cursive;
+  color: #F7A072;
+}
+
+h2 {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.content {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.heading {
+  display:flex;
+  flex-direction:column;
+  font-size:25px;
+}
+
+header img{
+  width:10em;
+  padding:10px;
+}
+
+
+li {
+  display: inline;
+}
+
+nav{
+background: white;
+padding: 5px;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+padding-bottom: 50px;
+}
+
+.content {
+  background-color:grey;
+  border-style:dashed;
+  padding:1em;
+  font-family: 'DM Serif Text', serif;
+}
+
+
+  .navBar button {
+    display:none;
+  }
+.navContent a{
+  font-size:18px;
+  color:blue;
+  text-decoration:none;
+  padding:.5em;
+  background-color:#00a7e1;
+  color:white;
+  text-decoration:none;
+  border-radius:0px 0px 15px 15px;
+}
+  
+.navContent a:hover{
+  box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75);
+}
+  
+footer {
+  background-color:#00a7e1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+  color:white;
+}
+  
+footer a{
+  text-decoration:none;
+  color:white;
+}
+
+  
+.contactInfo {
+  background-color:#54bee3;
+  width:80%;
+  height:45%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:25px;
+  padding:5px;
+  color:white;
+  }
+.contactInfo p {
+  text-align:center;
+  font-family: 'DM Serif Text', serif;
+}
+  
+.contactInfo img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:35%;
+}
+
+.cards {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding:20px;
+  padding-left:50px;
+  margin-left:5%;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+.cards img {
+  width:250px;
+  height:300px;
+}
+
+section {
+  background-color:#00A7E1;
+  border: 1px solid #8585B2;
+  padding:10px;
+  text-align:center;
+  color:white;
+  font-family: 'DM Serif Text', serif;
+}
+}  
+
+@media only screen and (min-width: 60em) {
+  /*full screen*/
+ header {
+  background-color:#00a7e1;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  border-radius: 18px 18px 0px 0px;
+}
+
+.heading h1 {
+  font-family: 'DM Serif Text', serif;
+  color:white;
+  padding: 0px;
+  background-color:none;
+}
+
+.motto {
+  font-family: 'Mansalva', cursive;
+  color: #F7A072;
+}
+
+h3{
+  font-family: 'DM Serif Text', serif;
+}
+
+h2 {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+section .heading {
+  display:flex;
+  flex-direction:column;
+  font-size:25px;
+  background-color:none;
+}
+
+header img{
+  width:10em;
+  padding:10px;
+}
+
+
+li {
+  display: inline;
+}
+
+nav{
+background: #180f06;
+padding: 25px;
+box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75);
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.content {
+  background-color:grey;
+  border-style:dashed;
+  padding:1em;
+}
+
+.navContent a{
+  color:white;
+  text-decoration:none;
+  padding:1em;
+  background: #180f06;
+}
+
+  .navBar button {
+    display:none;
+  }
+  .navContent a{
+  color:white;
+  text-decoration:none;
+  padding:1em;
+  font-size:1.5em;
+}
+  .navContent a:hover{
+  color: grey;
+  box-shadow:none;
+}
+  
+footer {
+  background-color:#00a7e1;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+  text-decoration:none;
+}
+footer a{
+  text-decoration:none;
+  color:white;
+}
+  
+.contactInfo {
+  background-color:#54bee3;
+  width:80%;
+  height:45%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:25px;
+  padding:5px;
+  color:white;
+  }
+.contactInfo p {
+  text-align:center;
+  font-family: 'DM Serif Text', serif;
+}
+  
+.contactInfo img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:35%;
+}
+
+.cards {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding:20px;
+  background-color:#DDDDDD;
+  box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.75);
+  padding-left:50px;
+  margin-left:10%;
+  margin-top:5%;
+  margin-bottom:5%;
+  width:75%;
+}
+
+.cards img {
+  width:250px;
+  height:300px;
+}
+
+section {
+  background-color:#00A7E1;
+  border: 1px solid #8585B2;
+  padding:10px;
+  text-align:center;
+  color:white;
+  font-family: 'DM Serif Text', serif;
+}
+}

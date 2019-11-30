@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Preston Weather</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="prestonstyle.css">
+    <link rel="shortcut icon" type="image/png" href="faviconweather.png">
+    <script type="text/javascript" src="currentweather.js"></script>
+    <script type="text/javascript" src="weatherapi.js"></script>
+    <script type="text/javascript" src="getdate.js"></script>
+    <script type="text/javascript" src="prestoneventapi.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="weathericon.png" alt="logo">
+        <section class="heading">
+            <h1>Idaho Weather</h1>
+            <div class="motto">Weather of the Gem State!</div>
+        </section>
+    </header>
+    <nav>
+        <div class="navBar">
+            <button class="menu">Menu</button>
+            <div class="navContent">
+                <a href="../home/home.html">Home</a>
+                <a href="../preston/preston.html">Preston</a>
+                <a href="../sodasprings/sodasprings.html">Soda Springs</a>
+                <a href="../fishhaven/fishhaven.html">Fish Haven</a>
+                <a href="../stormcenter/stormcenter.html">Storm Center</a>
+                <a href="../gallery/gallery.html">Gallery</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <p id="advertisementSpot"></p>
+        <h2>Preston Idaho</h2>
+        <div class="heroimage">
+            <div id="currentforecast">
+                <h2>Weather Summary</h2>
+                <ul>
+                    <li>Currently: <span id="current-temp"></span> °F</li>
+                    <li>High: <span id="high"></span> °F</li>
+                    <li>Wind Chill: <span id="windchill"></span> °F</li>
+                    <li>Humidity: <span id="humidity"></span> %</li>
+                    <li>Wind Speed: <span id="windspeed"></span> MPH</li>
+                </ul>
+            </div>
+        </div><br>
+        <div class="fiveDayForecast">
+            <h1>5 Day Forecast</h1>
+            <table>
+                <tr>
+                    <td class="weatherDays">Monday</td>
+                    <td class="weatherDays">Tuesday</td>
+                    <td class="weatherDays">Wednesday</td>
+                    <td class="weatherDays">Thursday</td>
+                    <td class="weatherDays">Friday</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2><span id="monday"></span> °F</h2> <br> <span id="mondayimage"></span><img src="" alt=""
+                            id="mondayicon">
+                    </td>
+                    <td>
+                        <h2><span id="tuesday"></span> °F</h2> <br> <span id="tuesimage"></span><img src="" alt=""
+                            id="tuesicon">
+                    </td>
+                    <td>
+                        <h2><span id="wednesday"></span> °F</h2> <br> <span id="wedimage"></span><img src="" alt=""
+                            id="wedicon">
+                    </td>
+                    <td>
+                        <h2><span id="thursday"></span> °F</h2> <br> <span id="thurimage"></span><img src="" alt=""
+                            id="thuricon">
+                    </td>
+                    <td>
+                        <h2><span id="friday"></span> °F</h2> <br> <span id="friimage"></span><img src="" alt=""
+                            id="friicon">
+                    </td>
+                </tr>
+            </table>
+        </div>
+            <div id="articlecontainer">
+                <div id="article">
+                    <h2>Napoleon Dynamite Festival</h2>
+                    <h5>By: Kipp Dynamite</h5> <img src="dynamite.PNG" alt="fesitval">
+                    <p>In 2004 the Napoleon Dynamite comedy film was filmed in Preston Idaho. Many places in Preston can be seen throughout the film. The film’s creators, Jared and Jerusha Hess are from Preston where Jared went to high school.Napoleon Dynamite movie became a huge hit and Preston Idaho became a tourist attraction for fans. People came from all over the world to tour Preston, including the High School and other places featured in the film. Preston held Napoleon Dynamite Festival for several summers to celebrate Napoleon Dynamite. The festival included Tater Tot Eating Contests, Tetherball Tournaments, Moon Boot Dances, Look-A-Like Contests and The Happy Hands Club performances.
+                    </p>
+                    <a href="#">Click here to read the rest of this article...</a>
+                </div>
+            </div>
+            <div id="upcomingeventscontainer">
+                <div id="upcomingevents">
+                    <h2>Upcoming Events</h2>
+                    <p id="event1"></p>
+                    <p id="event2"></p>
+                    <p id="event3"></p>
+                </div>
+            </div>
+        </div><br>
+        <div class="contactInfo">
+            <p>
+                Address: 0000 Idaho Way, Rexburg, ID, 83440
+            </p>
+            <p>
+                Phone: (666)666-6666
+            </p>
+            <p>
+                Fax:(999)999-9999
+            </p>
+            <a href="https://www.google.com/maps/@42.1738608,-112.0255435,11z"><img src="prestonmap.PNG"
+                    alt="Idaho Map"></a>
+        </div><br>
+    </main>
+    <footer>
+        <p id="currentDate"></p>
+        <p>&nbsp Jonathan Lundquist &nbsp</p>
+        <p>BYU-Idaho CIT 230 &nbsp</p>
+        <p> <a href="https://www.byui.edu/online"> BYUI Online Learning &nbsp</a></p>
+        <p><a href="https://jonathanlundquist97.github.io/"> Back to Assingment Portal</a></p>
+        <p>&nbsp ©2019 &nbsp</p>
+    </footer>
+</body>
+
+</html>
