@@ -1,5 +1,5 @@
 //4315588 boston rouge id
-const brouge = "http://api.openweathermap.org/data/2.5/weather?id=4315588&units=imperial&APPID=8d9637c75bb719f3641c11d321f1a8fa";
+const brouge = "https://api.openweathermap.org/data/2.5/weather?id=4315588&units=imperial&APPID=8d9637c75bb719f3641c11d321f1a8fa";
 fetch(brouge)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -8,7 +8,7 @@ fetch(brouge)
     });
 
 //4930956 boston ID
-const boston = "http://api.openweathermap.org/data/2.5/weather?id=5809844&units=imperial&APPID=8d9637c75bb719f3641c11d321f1a8fa";
+const boston = "https://api.openweathermap.org/data/2.5/weather?id=5809844&units=imperial&APPID=8d9637c75bb719f3641c11d321f1a8fa";
 fetch(boston)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -17,7 +17,7 @@ fetch(boston)
     });
 
 //5780993 Salt Lake City ID
-const saltlake = "http://api.openweathermap.org/data/2.5/weather?id=5780993&units=imperial&APPID=8d9637c75bb719f3641c11d321f1a8fa";
+const saltlake = "https://api.openweathermap.org/data/2.5/weather?id=5780993&units=imperial&APPID=8d9637c75bb719f3641c11d321f1a8fa";
 fetch(saltlake)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -26,7 +26,7 @@ fetch(saltlake)
     });
 
 //5809844 seattle ID
-const seattle = "http://api.openweathermap.org/data/2.5/weather?id=5809844&units=imperial&APPID=8d9637c75bb719f3641c11d321f1a8fa";
+const seattle = "https://api.openweathermap.org/data/2.5/weather?id=5809844&units=imperial&APPID=8d9637c75bb719f3641c11d321f1a8fa";
 fetch(seattle)
     .then((response) => response.json())
     .then((jsObject) => {
