@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css?family=Carme|Josefin+Sans|Solway&display=swap');
+@media only screen and (max-width:37.49em) {
+  /*small screens*/
+#titlecontainer {
+    background-color: #CEE397;
+    text-align:center;
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding:15px;
+    font-size:1.5em;
+    border-color:#94a36c;
+    border-style:solid;
+    border-width:3px 3px 0px 3px;
+}
+
+#titlecontainer img{
+    width:63%;
+}
+
+#titlecontainer #logoright{
+    display:none;
+}
+/*start of nav*/
+nav {
+    background-color: #F2ED6F;
+    text-align:center;
+    color:#8DB1AB;
+    margin-left:auto;
+    margin-right:auto;
+    border-color: #F4E04D;
+    border-style:solid;
+    border-width:0px 3px 2px 3px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav li{
+    display:block;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+li a{
+    color:#8DB1AB;
+    text-decoration: none;
+    transition: .3s;
+}
+
+li a:hover{
+    color:#587792;
+    text-decoration: none;
+    font-size:1.2em;
+    transition: .3s;
+}
+/*end of nav*/
+/*top image*/
+#summaryheroimage {
+    background-image: url('../images/batonrouge.jpg');
+    background-size:cover;
+    background-position: 35% 85%; 
+    background-repeat: no-repeat;
+    background-color:blue;
+    width:80%;
+    height:160px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    box-shadow: 0px 40px 32px -25px black;
+}
+#leftfloating h1{
+    opacity:1;
+    font-size:1.3em;
+}
+#leftfloating{
+    width:100%;
+    height:100%;
+    background-color:#587792d3;
+    box-shadow: 0px 0px 19px 8px #8DB1AB;
+    margin-right:15px;
+    margin-top:2%;
+    /*text*/
+    color:white;
+    text-align:center;
+}
+
+#leftfloating p{
+    font-size:1.2em;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+}
+
+.services {
+    display:none;
+}
+
+/*bottom image*/
+#reservenowheroimage {
+    background-image: url('../images/farm.jpg');
+    background-size:cover;
+    background-position: 10% 35%; 
+    background-color:blue;
+    width:80%;
+    height:160px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+    margin-bottom:3%;
+    box-shadow: 0px 40px 32px -25px black;
+}
+
+#rightfloating{
+    width:100%;
+    height:100%;
+    background-color:#94a36c57;
+    box-shadow: 0px 0px 19px 8px #CEE397;
+    margin-right:15px;
+    margin-top:2%;
+    /*text*/
+    color:white;
+    text-align:center;
+}
+
+#rightfloating h3{
+    font-size:1.4em;
+    padding-top:5%;
+    font-family: 'Carme', sans-serif;
+    padding-bottom:1%;
+    color:white;
+}
+
+#rightfloating a{
+    background-color:#eed516;
+    color:#94a36c;
+    padding:3%;
+    text-decoration: none;
+    border-radius:15px;
+    transition: .3s;
+}
+
+#rightfloating a:visited{
+    background-color:#eed516;
+    color:#94a36c;
+    padding:2%;
+    text-decoration: none;
+    border-radius:15px;
+    transition: .3s;
+}
+
+#rightfloating a:hover{
+    background-color:#F4E04D;
+    color:#94a36c;
+    padding:2%;
+    opacity:.7;
+    text-decoration: none;
+    border-radius:15px;
+    transition: .5s;
+}
+
+/*temples page css*/
+.templecontainer {
+    box-shadow: 0px 15px 19px 8px rgba(0, 0, 0, 0.671);
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10%;
+}
+
+.templecontainer th{
+font-size:2.5em;
+color:white;
+padding:2%;
+font-family: 'Carme', sans-serif;
+text-shadow:0px 0px 15px #06192bc9;
+}
+    
+.templecontainer h2{
+    font-size:1em;
+    font-family: 'Carme', sans-serif;
+    text-align: center;
+    color:white;
+    text-shadow:0px 0px 15px #1f3a53c9;
+}
+
+.templecontainer .smallth{
+    font-size:.8em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    color:white;
+}
+
+.templecontainer .smallth a{
+    color:white;
+}
+
+.templecontainer .smallth a:visited{
+    color:white;
+}
+.templecontainer p{
+font-size:.8em;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.templeimg {
+    background-repeat: no-repeat;
+    background-color:blue;
+    width:100%;
+    height:35em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3%;
+}
+
+#batonrouge {
+    background-image: url('../images/batonrouge.jpg');
+    background-size:cover;
+    background-position: 50% 35%; 
+}
+
+#boston {
+    background-image: url('../images/boston.jpg');
+    background-size:cover;
+    background-position: 50% 85%; 
+}
+
+#saltlake {
+    background-image: url('../images/saltlake.jpg');
+    background-size:cover;
+    background-position: 70% 85%; 
+}
+
+#seattle {
+    background-image: url('../images/seattle.jpg');
+    background-size:cover;
+    background-position: 30% 85%; 
+}
+
+.templeinfo {
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:#587792c9;
+}
+
+.templeinfo h1{
+    text-align: center;
+    color:white;
+}
+
+.templeinfo td{
+    vertical-align: top;
+}
+
+.templeinfo p{
+    text-align: center;
+    color:white;
+}
+
+/*reservation page CSS*/
+.reservationinfo {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.reservationinfo table {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    border:3px solid #587792;
+    border-radius:10px;
+    padding-left:10px;
+}
+
+.reservationinfo h2 {
+    font-family: 'Carme', sans-serif;
+    padding-top:3%;
+    color: #587792;
+}
+
+.reservationinfo p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:.8em;
+}
+
+#submitcontainer {
+    width:100%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#submitbutton {
+    background-color:#587792c9;
+    color:white;
+    opacity:.8;
+    border:1px solid #8DB1AB;
+    padding:15px;
+    border-radius:15px;
+    transition: .3s;
+}
+
+#submitbutton:hover {
+    background-color:#587792c9;
+    color:white;
+    opacity:1;
+    border:1px solid #8DB1AB;
+    padding:15px;
+    border-radius:25px;
+    transition: .7s;
+}
+
+/*Service page*/
+#amenities {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#amenities h1{
+    font-size:3em;
+    font-family: 'Carme', sans-serif;
+    color:#587792c9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#amenities h2{
+    font-size:1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#587792c9;
+    text-align: center;
+}
+
+#amenities ul , h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#587792c9;
+}
+
+#amenities li a{
+    color:#587792c9;
+    font-size:1em;
+    text-decoration:underline;
+}
+
+#amenities li a:hover{
+    color:#314e68;
+}
+
+
+#servicecontainer {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#servicephoto {
+    background-image: url('../images/groves.jpg');
+    background-size:cover;
+    background-position: 20% 25%; 
+    background-repeat: no-repeat;
+    background-color:blue;
+    width:100%;
+    height:360px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3%;
+    box-shadow: 0px 40px 32px -25px black;
+}
+/*contact page CSS*/
+#contactcontainer {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2%;
+}
+
+#contactmap {
+    width:100%;
+    height:360px;
+    margin-left:auto;
+    margin-right:auto;
+    border:0px;
+    background-color:#e8e8e8;
+}
+#contactcontainer th{
+    font-size:2em;
+    color:#587792c9;
+    font-family: 'Carme', sans-serif;
+    text-shadow:0px 0px 15px #506b8328;
+    }
+
+#contactcontainer td{
+    vertical-align: top;
+    color:#587792c9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:1em;
+}
+
+#contactmap {
+    width:100%;
+    height:360px;
+    margin-left:auto;
+    margin-right:auto;
+    border:0px;
+    margin-top:3%;
+}
+
+.hideonsmall {
+    display:none;
+}
+
+#contactcontainer table{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    border-collapse: collapse;
+}
+
+#contactcontainer tr {
+    border:none;
+}
+
+#contactbutton{
+    background-color:#587792c9;
+    color:white;
+    opacity:.8;
+    border:1px solid #8DB1AB;
+    padding:10px;
+    border-radius:15px;
+    transition: .3s;
+}
+
+#contactbutton:hover {
+    background-color:#587792c9;
+    color:white;
+    opacity:1;
+    border:1px solid #8DB1AB;
+    padding:10px;
+    border-radius:25px;
+    transition: .7s;
+}
+
+/*Full time Missionary Page*/
+#missionarycontainer{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#missionarycontainer h1{
+    text-align:center;
+    font-size:2em;
+    font-family: 'Carme', sans-serif;
+    color:#587792c9;
+    text-decoration: underline;
+}
+
+#missionarycontainer h2{
+    text-align:center;
+    font-size:1em;
+    font-family: 'Carme', sans-serif;
+    color:#587792c9;
+    font-style: italic;
+}
+
+#missionarycontainer p{
+    text-align:center;
+    margin-top:2%;
+    font-size:1.2em;
+    font-family: 'Carme', sans-serif;
+    color:#587792c9;
+}
+
+#missionarycontactcontainer table{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    border-collapse: collapse;
+}
+
+#missionarycontactcontainer tr {
+    border:none;
+}
+
+#missionarycontactbutton{
+    background-color:#587792c9;
+    color:white;
+    opacity:.8;
+    border:1px solid #8DB1AB;
+    padding:15px;
+    border-radius:15px;
+    transition: .3s;
+}
+
+#missionarycontactbutton:hover {
+    background-color:#587792c9;
+    color:white;
+    opacity:1;
+    border:1px solid #8DB1AB;
+    padding:15px;
+    border-radius:25px;
+    transition: .7s;
+}
+
+#missionarycontainer a{
+    color:#587792c9;
+    font-size:1em;
+    text-decoration:underline;
+    transition: .3s;
+}
+
+#missionarycontainer a:hover{
+    color:#314e68;
+}
+
+#bigfield {
+    display: none;
+}
+/*reception page css*/
+
+#receptioncontainer {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#receptioncontainer h1{
+    font-size:2em;
+    font-family: 'Carme', sans-serif;
+    color:#587792c9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#receptioncontainer h2{
+    font-size:1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#587792c9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#receptioncontainer ul, p{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#587792c9;
+    font-size:.8em;
+}
+
+#receptioncontainer ul{
+    text-align: center;
+}
+
+#receptioncontainer a{
+    color:#587792c9;
+    font-size:1em;
+    text-decoration:underline;
+    transition: .3s;
+}
+
+#receptioncontainer a:hover{
+    color:#314e68;
+}
+#receptionphoto{
+    background-image: url('../images/river.jpg');
+    background-size:cover;
+    background-position: 10% 55%; 
+    background-repeat: no-repeat;
+    background-color:blue;
+    width:100%;
+    height:360px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3%;
+    box-shadow: 0px 40px 32px -25px black;
+}
+
+
+/*start of footer, goes to end of css*/
+#footercontainer {
+    background-color: #CEE397;
+    text-align:center;
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding:10px;
+    font-size:1.5em;
+    border-color:#94a36c;
+    border-style:solid;
+    border-width:3px 3px 3px 3px;
+    margin-top:7%;
+}
+
+
+#footercontainer ul{
+    list-style-type:none;
+    font-size:.35em;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footercontainer li{
+    margin:10px 0;
+}
+}
