@@ -227,7 +227,7 @@ font-family: 'Josefin Sans', sans-serif;
     width:100%;
     margin-left: auto;
     margin-right:auto;
-    background-color:#587792c9;
+    background-color:#274a6bc9;
 }
 
 .templeinfo h1{
@@ -277,7 +277,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #submitbutton {
-    background-color:#587792c9;
+    background-color:#274a6bc9;
     color:white;
     opacity:.8;
     border:1px solid #8DB1AB;
@@ -287,7 +287,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #submitbutton:hover {
-    background-color:#587792c9;
+    background-color:#274a6bc9;
     color:white;
     opacity:1;
     border:1px solid #8DB1AB;
@@ -305,7 +305,7 @@ font-family: 'Josefin Sans', sans-serif;
 #amenities h1{
     font-size:3em;
     font-family: 'Carme', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
     text-align: center;
     text-decoration: underline;
 }
@@ -313,17 +313,17 @@ font-family: 'Josefin Sans', sans-serif;
 #amenities h2{
     font-size:1em;
     font-family: 'Josefin Sans', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
     text-align: center;
 }
 
 #amenities ul , h3{
     font-family: 'Josefin Sans', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
 }
 
 #amenities li a{
-    color:#587792c9;
+    color:#274a6bc9;
     font-size:1em;
     text-decoration:underline;
 }
@@ -363,7 +363,7 @@ font-family: 'Josefin Sans', sans-serif;
     text-align:center;
     font-size:3em;
     font-family: 'Carme', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
     text-decoration: underline;
 }
 
@@ -371,7 +371,7 @@ font-family: 'Josefin Sans', sans-serif;
     text-align:center;
     font-size:1.2em;
     font-family: 'Carme', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
     font-style: italic;
 }
 
@@ -380,7 +380,7 @@ font-family: 'Josefin Sans', sans-serif;
     margin-top:2%;
     font-size:1.5em;
     font-family: 'Carme', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
 }
 
 #missionarycontactcontainer table{
@@ -396,7 +396,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #missionarycontactbutton{
-    background-color:#587792c9;
+    background-color:#274a6bc9;
     color:white;
     opacity:.8;
     border:1px solid #8DB1AB;
@@ -406,7 +406,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #missionarycontactbutton:hover {
-    background-color:#587792c9;
+    background-color:#274a6bc9;
     color:white;
     opacity:1;
     border:1px solid #8DB1AB;
@@ -416,7 +416,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #missionarycontainer a{
-    color:#587792c9;
+    color:#274a6bc9;
     font-size:1em;
     text-decoration:underline;
     transition: .3s;
@@ -440,7 +440,7 @@ font-family: 'Josefin Sans', sans-serif;
 #receptioncontainer h1{
     font-size:3em;
     font-family: 'Carme', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
     text-align: center;
     text-decoration: underline;
 }
@@ -448,14 +448,14 @@ font-family: 'Josefin Sans', sans-serif;
 #receptioncontainer h2{
     font-size:1.5em;
     font-family: 'Josefin Sans', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
     text-align: center;
     text-decoration: underline;
 }
 
 #receptioncontainer ul, p{
     font-family: 'Josefin Sans', sans-serif;
-    color:#587792c9;
+    color:#274a6bc9;
 }
 
 #receptioncontainer ul{
@@ -463,7 +463,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #receptioncontainer a{
-    color:#587792c9;
+    color:#274a6bc9;
     font-size:1em;
     text-decoration:underline;
     transition: .3s;
@@ -496,14 +496,14 @@ font-family: 'Josefin Sans', sans-serif;
 
 #contactcontainer th{
     font-size:2em;
-    color:#587792c9;
+    color:#274a6bc9;
     font-family: 'Carme', sans-serif;
     text-shadow:0px 0px 15px #506b8328;
     }
 
 #contactcontainer td{
     vertical-align: middle;
-    color:#587792c9;
+    color:#274a6bc9;
     font-family: 'Josefin Sans', sans-serif;
     font-size:1em;
 }
@@ -535,11 +535,11 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #contactcontainer td:first-child, th:first-child{
-    border-right: solid 3px #587792c9;
+    border-right: solid 3px #274a6bc9;
 }
 
 #contactbutton{
-    background-color:#587792c9;
+    background-color:#274a6bc9;
     color:white;
     opacity:.8;
     border:1px solid #8DB1AB;
@@ -549,7 +549,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #contactbutton:hover {
-    background-color:#587792c9;
+    background-color:#274a6bc9;
     color:white;
     opacity:1;
     border:1px solid #8DB1AB;
